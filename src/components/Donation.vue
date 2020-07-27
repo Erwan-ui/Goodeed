@@ -62,7 +62,7 @@ selectedLink:''
     this.redir = this.campaigns[idx].redirect_uri;
     this.id_campaign = this.campaigns[idx]._id;
     /* Les 3 opérations ci-dessus permettent de récupérer des informations concernant la campagné choisie aléatoirement */
-    setTimeout(() => this.elementVisible = true, 20000)
+    setTimeout(() => this.elementVisible = true, 5000)
     console.log(this.redir)
   },
 
@@ -110,7 +110,7 @@ selectedLink:''
 }
 
 .progress-value {
-  animation: load 20s linear forwards;
+  animation: load 5s linear forwards;
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 10px;
   background: #42A5F5;
